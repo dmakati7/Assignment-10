@@ -1,29 +1,4 @@
-/*
-* Skeleton V1.2
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 6/20/2012
-*/
 
-
-/* Table of Content
-==================================================
-	#Reset & Basics
-	#Basic Styles
-	#Site Styles
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Misc */
-
-
-/* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -48,19 +23,14 @@
 		border-spacing: 0; }
 
 
-/* #Basic Styles
-================================================== */
 	body {
-		/*background: #fff;*/
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-font-smoothing: antialiased;
 		-webkit-text-size-adjust: 100%;
  }
 
 
-/* #Typography
-================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
 		font-family: "Georgia", "Times New Roman", serif;
@@ -82,7 +52,6 @@
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
 
-/*	Blockquotes  */
 	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
@@ -92,15 +61,12 @@
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 
-/* #Links
-================================================== */
+
 	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
 	a:hover, a:focus { color: #000; }
 	p a, p a:visited { line-height: inherit; }
 
 
-/* #Lists
-================================================== */
 	ul, ol { margin-bottom: 20px; }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
@@ -116,23 +82,18 @@
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
-/* #Images
-================================================== */
 
 	img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
 
 
-/* #Buttons
-================================================== */
-
 	.button,
 	button,
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"] {
-		background: #eee; /* Old browsers */
+		background: #eee;
 		background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%); /* FF3.6+ */
 		background: #eee -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.2)), color-stop(100%,rgba(0,0,0,.2))); /* Chrome,Safari4+ */
 		background: #eee -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* Chrome10+,Safari5.1+ */
@@ -163,7 +124,7 @@
 	input[type="reset"]:hover,
 	input[type="button"]:hover {
 		color: #222;
-		background: #ddd; /* Old browsers */
+		background: #ddd;
 		background: #ddd -moz-linear-gradient(top, rgba(255,255,255,.3) 0%, rgba(0,0,0,.3) 100%); /* FF3.6+ */
 		background: #ddd -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.3)), color-stop(100%,rgba(0,0,0,.3))); /* Chrome,Safari4+ */
 		background: #ddd -webkit-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Chrome10+,Safari5.1+ */
@@ -180,7 +141,7 @@
 	input[type="reset"]:active,
 	input[type="button"]:active {
 		border: 1px solid #666;
-		background: #ccc; /* Old browsers */
+		background: #ccc;
 		background: #ccc -moz-linear-gradient(top, rgba(255,255,255,.35) 0%, rgba(10,10,10,.4) 100%); /* FF3.6+ */
 		background: #ccc -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.35)), color-stop(100%,rgba(10,10,10,.4))); /* Chrome,Safari4+ */
 		background: #ccc -webkit-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -198,7 +159,6 @@
 		padding-right: 0 !important;
 		text-align: center; }
 
-	/* Fix for odd Mozilla border & padding issues */
 	button::-moz-focus-inner,
 	input::-moz-focus-inner {
     border: 0;
@@ -206,8 +166,6 @@
 	}
 
 
-/* #Forms
-================================================== */
 
 	form {
 		margin-bottom: 20px; }
@@ -262,8 +220,6 @@
 		font-size: 13px;
 		color: #444; }
 
-/* #Misc
-================================================== */
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
